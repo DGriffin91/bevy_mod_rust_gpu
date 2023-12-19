@@ -1,0 +1,10 @@
+[package]
+name = "post_processing"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib", "lib"]
+
+[dependencies]
+spirv-std = { git = "https://github.com/EmbarkStudios/rust-gpu", rev = "83f8c72f04a6af673b0533a0f03527b7756f883e" }
