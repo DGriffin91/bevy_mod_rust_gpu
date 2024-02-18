@@ -67,7 +67,7 @@ impl RustGpuRegistry {
 }
 
 #[derive(Asset, TypePath, Debug)]
-pub struct RustGpuShader(PathBuf);
+pub struct RustGpuShader(pub PathBuf);
 
 #[derive(Default)]
 struct RustGpuLoader;
